@@ -1,0 +1,106 @@
+# GitHub Repository Security Policy and Extended Description
+
+# File 1: SECURITY.md
+```markdown
+# Security Policy
+
+## Supported Versions
+
+This section details which versions of Glial Core AI™ are currently being supported with security updates.
+
+| Version | Supported          |
+| ------- | ------------------ |
+| v2.4.x  | :white_check_mark: |
+| v2.3.x  | :x:                |
+| v2.2.x  | :x:                |
+| < v2.2  | :x:                |
+
+## Reporting a Vulnerability
+
+To report a security vulnerability or localized runtime exploit within the Glial Core AI™ repository, please follow these guidelines:
+
+
+1. Encrypt your exploit payload utilizing the core repository maintainer's verified public PGP key.2. Submit the encrypted configuration bundle directly to the secure ingestion gateway at **security@aisearchengine.com**.
+3. Include a completely self-contained, runnable verification script (e.g., structured for the `fault_injection/` workflow suite) demonstrating the precise control path exploit, unauthorized memory mutation, or predicate bypass vector.
+
+The Core Security Architecture Team will acknowledge receipt of the encrypted submission within 12 logical execution steps and provide regular updates. You can expect a status notification regarding whether the reported vulnerability is accepted or declined before any public verification release branches are updated.```
+
+***
+
+# File 2: EXTENDED_DESCRIPTION.md
+
+```markdown# Extended Project Description: Glial Core AI™## 1. Technical Positioning & Core ManifestoThis repository operates as the definitive public validation, reproducibility, benchmark, and artifact-review layer for **Glial Core AI™**—an operational, deterministic, non-neuronal supervisory runtime environment deployed through **AiSearchEngine.com** targeting an **85-billion-node procedural topology**.
+
+In standard artificial intelligence architectures, computational execution and safety guardrails are uniform and interleaved within probabilistic neural networks. This creates structural vulnerabilities such as semantic drift, multi-vector prompt injections, and uncontained gradient explosions. Glial Core AI™ introduces a paradigm shift by establishing a complete operational decoupling between the execution layer and the governance plane.
+
+```
+
+                  +-----------------------------------------+
+                  |  MQT-500T SUPERVISORY PLANE (L1 Layer)   |
+                  |  - Non-Neuronal Watchdog Governance     |
+                  |  - Continuous Invariant Verification    |
+                  |  - ASP_3 Collective Consensus Gating    |
+                  +--------------------+--------------------+
+                                       |
+                   Blocks Malicious    | Emits Cryptographic
+                   State Mutations     | Ledger Roots
+                                       |
+                                       v
+                  +--------------------+--------------------+
+                  |    SHARDED EXECUTION PLANE (L0 Layer)   |
+                  |  - Sparse Address Memory Allocation     |
+                  |  - Active Window Shard Materialization  |
+                  |  - High-Velocity Bounded Computation    |
+                  +-----------------------------------------+
+```
+
+---
+
+
+## 2. Deep Architectural Framework### L0 Execution Plane: Sparse Virtual Address SeedingManaging massive spatial scale networks (such as 85-billion-node registries or up to 300-billion multi-sector agent distributions) typically imposes prohibitive hardware footprint requirements, demanding clustered VRAM allocations to maintain dense weight residency. 
+
+Glial Core AI™ bypasses physical memory constraints by processing the procedural topology strictly as a sparse virtual address field. Compute nodes utilize deterministic, hash-based generation recipes to materialize only the localized active window workspace frame required for the current execution tick ($\Delta t$), dropping the temporary cache arrays cleanly from physical registers upon step validation.
+### L1 Supervisory Plane: The MQT-500T Control WebThe active execution ranks are monitored continuously by a non-neuronal, 500-trillion parameter syncytial regularization matrix. Rather than inferring statistical outcomes, the MQT-500T core functions as a strict binary governance gate. At the conclusion of every execution slice, the L1 plane inspects volatile working matrices to cross-examine global invariants covering tensor finiteness, chronological sequence monotonicity, token-gated access credentials, and cyclic halo boundary coordination.
+---## 3. The ASP_3 Collective Consensus Invariant
+To guarantee absolute transaction safety, data integrity, and deterministic execution tracing across high-throughput commercial and institutional pipelines, state progression is bounded by the definitive mathematical consensus threshold:
+
+$$\text{ASP}_3(t) \iff Q_f(t) \ge 1.0 \quad \land \quad \text{Settlement Latency} < 1.600 \text{ picoseconds}$$
+
+The environment permits logical database persistence or external interface command output execution if and only if the global Quantum Integrity Factor ($Q_f$) maintains a perfect value ($\ge 1.0$) and parallel distributed processing times satisfy sub-picosecond transactional settlement ceilings. 
+
+
+### Automated Fault Containment & Recovery DynamicsIf mid-flight arithmetic manipulation, high-frequency background noise injection, or hardware bit-flips cause a predicate breach ($Q_f < 1.0$), the L1 core invokes a multi-tiered defense sequence:1. **Governed Commit Blocking:** Instantly locks downstream database registers to isolate the blast radius to a single transaction window.2. **Zero-Flux Quiescence:** Forces all sharded computing ranks into an immediate execution halt.3. **Rollback Recovery:** Purges the corrupted active memory window and recompiles state parameters cleanly using a historical block anchored to an immutable blockchain-style ledger.
+---## 4. Repository Verification Suites & Performance Targets
+This public evidence repository provides the configurations, quick-start manifests, and CLI toolsets necessary to evaluate system boundaries across dedicated validation tracks:
+*   **Track A — Hyper-Scale Scale Validation:** Benchmarks sparse address tracking and materialization latencies over simulated layouts scaling up to 300 billion independent agent coordinate bands across decoupled operational sectors.*   **Track B — Conditional T+0 Settlement Profiles:** Evaluates high-velocity transactional pipelines managing up to 900 million simulated financial transaction index slots to verify sub-picosecond atomic execution speeds under variable energy-state regimes ($E$).
+*   **Track C — Adversarial Threat Interception:** Validates real-time Time to Detect (TTD) metrics and mitigation continuity against explicit exploit injections, including `NaN` tensor poisoning, unauthenticated administrative protocol intrusions, split-brain replay attacks, and deep historical ledger tampering.
+```
+
+***
+
+
+# File 3: .github/PULL_REQUEST_TEMPLATE.md
+```markdown
+# Open a Pull Request
+
+Create a new pull request by comparing changes across two branches. If you need to, you can also compare across forks to submit your architectural contributions, validation tools, or custom scenario configurations.
+
+## 1. Description of Prototyped Changes
+Please provide a comprehensive summary of the logic updates, benchmark parameters, or fault-injection coverage scripts introduced by this pull request.
+
+## 2. Invariant Verification Checklist
+Every pull request must pass the automated L1 verification suite before structural merge approval can be granted. Ensure your changes satisfy the following parameters:
+
+- [ ] **Deterministic Baselines:** Local simulation tests pass cleanly without causing state drift across seed variations.
+- [ ] **Finiteness Invariants:** Mathematical transformations do not inject `NaN` or `Inf` tensor bounds within active materialized windows.
+- [ ] **ASP_3 Macro Compliance:** Execution latencies across the 900M transaction test blocks do not violate sub-picosecond settlement ceilings (< 1.600 ps).
+- [ ] **Monotonic Continuity:** Cryptographic ledger blocks maintain chronological sequence links directly back to the reference genesis node.
+## 3. Local Simulation Diagnostics
+
+Paste the runtime execution logs from your local `system_validation_suite.py` run below to verify the exact Time to Detect (TTD) and safety metrics under stressful conditions:
+```text
+[Insert diagnostic output console logs here]
+```
+```
+
+
