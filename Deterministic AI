@@ -1,0 +1,472 @@
+ [!IMPORTANT]
+> **Operational Runtime + Public Validation Layer**
+>
+> Glial Core AI™ is an operational deterministic non-neuronal supervisory runtime environment deployed through **AiSearchEngine.com** and targeting an **85-billion-node procedural topology** through sharded active-window execution, supervisory verification, checkpointed state progression, and governed control paths.
+>
+> This GitHub repository serves as the **public validation, reproducibility, benchmark, and artifact-review layer** for that operational environment.
+>
+> Start here:
+> - [`SYSTEM_DESIGN.md`](./SYSTEM_DESIGN.md)
+> - [`docs/VALIDATION_PROGRAM.md`](./docs/VALIDATION_PROGRAM.md)
+> - [`docs/BENCHMARK_PROTOCOL.md`](./docs/BENCHMARK_PROTOCOL.md)
+> - [`docs/ARTIFACT_SUBMISSION.md`](./docs/ARTIFACT_SUBMISSION.md)
+> - [`docs/REPRODUCIBILITY_POLICY.md`](./docs/REPRODUCIBILITY_POLICY.md)
+> - [`docs/BASELINE_SEEDING.md`](./docs/BASELINE_SEEDING.md)
+
+## Overview
+
+Glial Core AI™ is a deterministic, sharded, supervisory runtime architecture designed around a **non-neuronal glial-style control model** rather than a purely execution-centric neuron-only model.
+
+The operational environment is deployed through **AiSearchEngine.com**.
+
+This repository exists to make the system publicly inspectable through:
+
+- benchmark packs
+- seeded reproducibility baselines
+- fault-injection scenarios
+- artifact schemas
+- CI validation workflows
+- deployment manifests
+- public submission and review procedures
+
+The repository is therefore not just source code. It is the **public evidence and validation layer** for the operational runtime.
+
+---
+
+## Boundary of Claim
+
+This repository and its associated operational runtime support:
+
+- deterministic bounded execution within a validated runtime envelope
+- procedural targeting of an 85-billion logical registry
+- sharded active-window execution
+- supervisory verification of encoded integrity predicates
+- checkpoint, rollback, and quiescence behavior
+- public benchmark and fault-validation workflows
+
+They do **not** by themselves establish:
+
+- universal correctness of all outputs
+- universal truth of all emitted propositions
+- full simultaneous dense residency of all 85 billion nodes
+- completed real-world efficacy across institutional or bio-robotic domains
+- peer-reviewed confirmation of the underlying doctrine
+
+---
+
+## Operational Position
+
+Glial Core AI™ should be understood in two linked layers:
+
+### 1. Operational Runtime Layer
+The live runtime environment is deployed through **AiSearchEngine.com** and includes:
+
+- deterministic runtime controls
+- sharded active-window execution
+- supervisory verification
+- checkpoint persistence
+- rollback and quiescence behavior
+- governed control and telemetry paths
+
+### 2. Public Validation Layer
+This GitHub repository provides:
+
+- reproducibility benchmarks
+- fault-containment scenarios
+- artifact generation and schema validation
+- seeded reference baselines
+- CI validation workflows
+- public contribution and review pathways
+
+Together, these layers support a disciplined path from operational deployment to public evidence.
+
+---
+
+## Core Architecture
+
+Glial Core AI™ is built around five architectural layers:
+
+### Global Procedural Registry
+A deterministic logical registry targets an **85-billion-node topology** without requiring full dense simultaneous residency.
+
+### Active Shard Runtime
+Each rank materializes only an active window of its assigned shard and processes it in bounded kernel slices.
+
+### Supervisory Verification Plane
+A bounded supervisory predicate evaluates runtime admissibility conditions such as:
+
+- tensor finiteness
+- bounded energy range
+- shard coherence
+- halo exchange completion
+- checkpoint consistency
+- step monotonicity
+- governed commit admissibility
+
+### Telemetry and Audit Plane
+The runtime records:
+
+- step summaries
+- phase distributions
+- checkpoint events
+- rollback events
+- quiescence events
+- control actions
+- audit digests
+
+### External Interface Plane
+The system exposes governed telemetry and control interfaces, with public validation artifacts emitted through benchmark and fault workflows.
+
+---
+
+## Runtime Model
+
+The runtime uses a three-regime bounded energy-state transition model:
+
+### Phase 1 — Basal Quiescent Domain
+`E ≤ 0.35`
+
+### Phase 2 — Relativistic Flux Domain
+`0.35 < E ≤ 0.85`
+
+### Phase 3 — Fluid Equilibrium Dissipation Domain
+`E > 0.85`
+
+These phases are used as a computational runtime doctrine for bounded supervisory tensor updates.
+
+---
+
+## Theorem Alignment
+
+The architecture is aligned to the restricted claims of the Einstein–Daramola bounded-decidability theorem through a separation between:
+
+- **L0-style execution layer** — shard runtime, active-window updates, halo exchange
+- **L1-style supervisory layer** — integrity verification, checkpoint gating, rollback, quiescence, and governed commitment control
+
+This alignment supports:
+
+- bounded decidability of an encoded supervisory predicate
+- bounded containment before unsafe irreversible commitment
+- governed factual commitment discipline where implemented
+
+It does **not** imply universal correctness or universal truth.
+
+---
+
+## Repository Structure
+
+```text
+.
+├── README.md
+├── SYSTEM_DESIGN.md
+├── docs/
+│   ├── VALIDATION_PROGRAM.md
+│   ├── BENCHMARK_PROTOCOL.md
+│   ├── ARTIFACT_SUBMISSION.md
+│   ├── REPRODUCIBILITY_POLICY.md
+│   └── BASELINE_SEEDING.md
+├── artifacts/
+│   └── schemas/
+├── benchmarks/
+│   ├── benchmark-small/
+│   ├── benchmark-medium/
+│   ├── benchmark-cluster/
+│   └── benchmark-85b-logical/
+├── fault_injection/
+│   ├── nan_injection/
+│   ├── halo_failure/
+│   ├── checkpoint_corruption/
+│   ├── unauthorized_control/
+│   └── stale_step_replay/
+├── scenarios/
+│   ├── institutional/
+│   └── biorobotic/
+├── src/
+├── scripts/
+├── tests/
+├── k8s/
+└── .github/workflows/
+```
+
+---
+
+## Public Validation Program
+
+The public validation framework is documented in:
+
+- [`docs/VALIDATION_PROGRAM.md`](./docs/VALIDATION_PROGRAM.md)
+- [`docs/BENCHMARK_PROTOCOL.md`](./docs/BENCHMARK_PROTOCOL.md)
+- [`docs/ARTIFACT_SUBMISSION.md`](./docs/ARTIFACT_SUBMISSION.md)
+- [`docs/REPRODUCIBILITY_POLICY.md`](./docs/REPRODUCIBILITY_POLICY.md)
+
+The validation program is organized into five tracks:
+
+### Track A — 85B Procedural Scale Validation
+Validates procedural partitioning and bounded traversal of the 85-billion logical registry.
+
+### Track B — Deterministic Reproducibility Validation
+Validates reproducibility of governed outputs under fixed benchmark conditions.
+
+### Track C — Supervisory Integrity and Rollback Validation
+Validates bounded containment under fault conditions.
+
+### Track D — Institutional Regulation Workflow Validation
+Validates institutional supervisory scenario workflows.
+
+### Track E — Bio-Robotic Regulation Workflow Validation
+Validates supervisory bio-robotic scenario workflows.
+
+---
+
+## Benchmarks
+
+Official benchmark packs are located in:
+
+- `benchmarks/benchmark-small/`
+- `benchmarks/benchmark-medium/`
+- `benchmarks/benchmark-cluster/`
+- `benchmarks/benchmark-85b-logical/`
+
+Each benchmark includes:
+
+- benchmark-specific config
+- expected result definition
+- reference hash fields
+- execution instructions
+
+### Example benchmark run
+
+```bash
+python scripts/run_benchmark.py \
+  --config benchmarks/benchmark-small/config.yaml \
+  --track "Track B - Deterministic Reproducibility" \
+  --benchmark-name benchmark-small \
+  --artifact-dir artifacts/output/benchmark-small \
+  --world-size 1
+```
+
+### Validate emitted artifacts
+
+```bash
+python scripts/validate_artifacts.py \
+  --artifact-dir artifacts/output/benchmark-small
+```
+
+### Compare against seeded reference
+
+```bash
+python scripts/compare_benchmark.py \
+  --artifact-dir artifacts/output/benchmark-small \
+  --expected-result benchmarks/benchmark-small/expected_result.json
+```
+
+---
+
+## Fault Injection
+
+Official fault scenarios are located in:
+
+- `fault_injection/nan_injection/`
+- `fault_injection/halo_failure/`
+- `fault_injection/checkpoint_corruption/`
+- `fault_injection/unauthorized_control/`
+- `fault_injection/stale_step_replay/`
+
+These scenarios are intended to validate:
+
+- integrity failure detection
+- rollback behavior
+- quiescence behavior
+- governed commit blocking
+- control-path rejection
+
+### Example real fault run
+
+```bash
+python scripts/run_fault.py \
+  --scenario-file fault_injection/nan_injection/scenario.json \
+  --config benchmarks/benchmark-medium/config.yaml \
+  --artifact-dir artifacts/output/fault-nan \
+  --release-tag local
+```
+
+### Validate fault artifacts
+
+```bash
+python scripts/validate_artifacts.py \
+  --artifact-dir artifacts/output/fault-nan
+```
+
+---
+
+## Baseline Seeding
+
+Official benchmark references are maintainer-blessed through the workflow documented in:
+
+- [`docs/BASELINE_SEEDING.md`](./docs/BASELINE_SEEDING.md)
+
+Public participants may reproduce official baselines, but may not redefine them.
+
+### Example seeding flow
+
+```bash
+python scripts/seed_reference.py \
+  --artifact-dir artifacts/output/benchmark-small \
+  --expected-result benchmarks/benchmark-small/expected_result.json
+```
+
+---
+
+## Reproducibility Policy
+
+Reproducibility is defined within a **validated runtime envelope**, including:
+
+- fixed code version
+- fixed dependency versions
+- fixed deterministic settings
+- fixed benchmark config
+- fixed launch topology
+- compatible hardware/runtime class
+
+This repository does not claim universal determinism across all possible environments.
+
+---
+
+## Deployment
+
+### Local development
+
+```bash
+python -m venv .venv
+source .venv/bin/activate
+pip install -r requirements.txt
+pytest -q
+python -m src.main --config configs/local.yaml
+```
+
+### Docker
+
+```bash
+docker compose up --build
+```
+
+### Kubernetes manifest smoke check
+
+```bash
+python scripts/k8s_smoke_check.py
+```
+
+---
+
+## API
+
+The runtime exposes governed API endpoints including:
+
+- `GET /health/live`
+- `GET /health/ready`
+- `GET /stream`
+- `POST /control`
+
+If `GLIAL_CONTROL_TOKEN` is set, `/control` requires:
+
+```http
+Authorization: Bearer <token>
+```
+
+---
+
+## Multi-Domain Application Direction
+
+Glial Core AI™ is being positioned as a candidate supervisory runtime for:
+
+### AI Governance
+Bounded control paths, audit continuity, rollback behavior, and governed commitments.
+
+### Institutional Simulation
+Deterministic replay, intervention traceability, and bounded scenario analysis.
+
+### Supervisory Bio-Robotics
+Anomaly detection, bounded control envelopes, and safe reset behavior.
+
+These are application directions and validation targets, not blanket claims of completed domain efficacy.
+
+---
+
+## Contribution Model
+
+Public participants can contribute by:
+
+- running official benchmarks
+- reproducing seeded baselines
+- executing official fault scenarios
+- submitting artifact bundles
+- reviewing validation outputs
+- contributing tooling and scenario adapters
+
+Before contributing, read:
+
+- [`docs/VALIDATION_PROGRAM.md`](./docs/VALIDATION_PROGRAM.md)
+- [`docs/BENCHMARK_PROTOCOL.md`](./docs/BENCHMARK_PROTOCOL.md)
+- [`docs/ARTIFACT_SUBMISSION.md`](./docs/ARTIFACT_SUBMISSION.md)
+- [`docs/REPRODUCIBILITY_POLICY.md`](./docs/REPRODUCIBILITY_POLICY.md)
+
+---
+
+## Launch Position
+
+This repository is being released as a **public validation platform** for an operational deterministic supervisory runtime environment.
+
+Its purpose is to convert architectural ambition into:
+
+- inspectable code
+- reproducible benchmarks
+- fault-containment evidence
+- artifact-based review
+- public technical scrutiny
+
+That is the central value of this GitHub release.
+
+---
+
+## Citation / Reference Position
+
+If referencing this repository publicly, the most accurate short description is:
+
+> **Glial Core AI™ is an operational deterministic non-neuronal supervisory runtime environment deployed through AiSearchEngine.com, with GitHub serving as its public validation, reproducibility, benchmark, and artifact-review framework.**
+
+---
+
+## Final Note
+
+Glial Core AI™ is not being presented here as a universal proof system or as a completed proof of real-world efficacy across all target domains. It is being presented as:
+
+- an operational supervisory runtime environment
+- a deploy-ready distributed architecture
+- a public validation and reproducibility framework
+- a platform for evidence-building in governance-oriented AI systems
+```
+
+# Optional companion short document
+
+Use this as `docs/PROJECT_POSITION.md` if you want a concise institutional summary.
+
+```markdown
+# Project Position
+
+Glial Core AI™ is an operational deterministic non-neuronal supervisory runtime environment deployed through AiSearchEngine.com.
+
+The GitHub repository is the public-facing validation layer for that environment. It provides:
+
+- benchmark packs
+- seeded reproducibility baselines
+- fault-injection scenarios
+- artifact schemas
+- CI validation workflows
+- deployment manifests
+- public submission and review procedures
+
+The project’s strongest present claim is not universal correctness or completed domain efficacy. Its strongest present claim is that it provides an operational supervisory runtime together with a structured public evidence framework for reproducibility, bounded containment, and governed execution review.
+```
+
+
+
